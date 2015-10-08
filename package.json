@@ -1,0 +1,24 @@
+{
+  "name": "intro-restful",
+  "version": "1.0.0",
+  "description": "intro lab to restful service with node.js",
+  "main": "rest.js",
+  "dependencies": {
+    "body-parser": "^1.14.1",
+    "express": "^4.13.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JohnMalmsteen/intro-restful.git"
+  },
+  "author": "John Frizzell",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JohnMalmsteen/intro-restful/issues"
+  },
+  "homepage": "https://github.com/JohnMalmsteen/intro-restful#readme"
+}

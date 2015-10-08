@@ -1,4 +1,3 @@
-###### Semantic Web and Linked Data - Exercise 3
 # Introduction to RESTful APIs
 In this exercise we will have a look at the bullding of a simple RESTful API.
 
@@ -9,13 +8,11 @@ In this exercise we will have a look at the bullding of a simple RESTful API.
 
 1. Install express in the current directory using the command 'npm install express'. Note that here we are not using the '-g' option. g stands for global, and will install node packages in the global node_modules location. We want express installed in the current directory instead.
 
-1. Run rest.js using node.
-
-1. Open http://127.0.0.1:8000 and http://127.0.0.1:8000/todo in Chrome or Firefox.
-
 1. Download curl.exe from [here](http://www.paehl.com/open_source/?CURL_7.44.0).
 
-1. At the command prompt, connect to http://127.0.0.1:8000 using the command 'curl -v http://127.0.0.1:8000'. Examine the request and response.
+1. Run rest.js using node.
+
+1. Connect to http://127.0.0.1/todo using the command 'curl -v http://127.0.0.1:8000'. Examine the request and response.
 
 1. Add a new route in rest.js with the format '/todo/\<num\>', where \<num\> is an integer. The route should respond, in JSON, with the task at index \<num\>. 
 
